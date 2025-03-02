@@ -47,8 +47,8 @@ nav h4 {
 }
 
 nav .page-anchors {
-	margin-left: 70px;
-	margin-right: 180px;
+	margin-left: 100px;
+	margin-right: 220px;
 }
 
 .welcome-section {
@@ -70,4 +70,66 @@ nav .page-anchors {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
+}
+
+#commission-rules header h1 {
+	font-family: "Gravitas One";
+	font-size: 3em;
+	margin-left: 50px;
+	background-image: linear-gradient(75deg, var(--accent), var(--primary));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+#commission-rules header h4 {
+	margin-left: 55px;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	font-size: 1em;
+
+	border-bottom: 1px solid var(--accent);
+	width: 200px;
+}
+
+.commission-description {
+	margin-left: 55px;
+}
+
+.commission-description {
+	margin-bottom: 10px;
+}
+
+.commission-description ol{
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+ul {
+	list-style: none;
+	margin-left: 21px;
+}
+
+table {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 320px;
+	border: 1px solid var(--accent);
+}
+
+table tr th {
+	border: 1px solid var(--accent);
+	padding: 10px;
+}
+
+table tr td {
+	padding: 10px;
+	border: 1px dashed var(--accent);
+}
+
+.thxs-h2, #copyright {
+	text-align: center;
+	margin-bottom: 50px;
 }
