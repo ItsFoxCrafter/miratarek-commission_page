@@ -1,0 +1,61 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) {}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+	.welcome-section h1,
+	#commission-rules header h1 {
+		font-size: 3em;
+	}
+
+	h2{
+ 		font-size: 1.1em;
+	}
+
+	h4 {
+		font-size: .7em;
+	}
+
+	.social-media {
+		font-size: .7em;
+	}
+
+	.commission-description,
+	#commission-rules header h4,
+	#commission-rules header h1 {
+		margin-left: 20px;
+	}
+
+	.thxs-h2 {
+		margin-inline: 10px;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.welcome-section h1,
+	#commission-rules header h1 {
+		font-size: 3em;
+	}
+
+	h2{
+ 		font-size: 1.1em;
+	}
+
+	h4 {
+		font-size: .7em;
+	}
+
+	.social-media {
+		font-size: .7em;
+	}
+
+	.commission-description,
+	#commission-rules header h4,
+	#commission-rules header h1 {
+		margin-left: 20px;
+	}
+
+	.thxs-h2 {
+		margin-inline: 10px;
+	}
+}
